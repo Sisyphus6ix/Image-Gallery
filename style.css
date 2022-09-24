@@ -10,15 +10,22 @@ h1 {
     border-right: 2px Solid #007FFF;
     width: 650px;
     text-align: center;
+    box-shadow: 4px 4px 5px;
 }
-
-img {
-    height: 500px;
-    margin: 25px;
-}
-
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
+img {
+    height: 500px;
+    margin: 25px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+
